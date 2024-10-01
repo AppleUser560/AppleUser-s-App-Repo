@@ -1,0 +1,30 @@
+﻿{
+  "name": "Bunduuk's AltStore Repo",
+  "identifier": "com.bunduuk.source",
+  "apps": [
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "ru.nonamedude.iTorrent",
+      "developerName": "XITRIX",
+      "subtitle": "iOS torrent client app",
+      "version": "1.7.4.1",
+      "versionDate": "2020-03-24T14:30:00-07:00",
+      "versionDescription": "Fixes and UI Improvements",
+      "downloadURL": "https://bitbucket.org/bunduuk/altstore/src/master/ipa/iTorrent/iTorrent.ipa?raw=true",
+      "localizedDescription": "iTorrent is a torrent client for iOS with Files app support.",
+      "iconURL": "https://bitbucket.org/bunduuk/altstore/src/master/img/iTorrent/icon.png",
+      "tintColor": "a1261b",
+      "size": 20132659,
+      "screenshotURLs": [
+        "https://bitbucket.org/bunduuk/altstore/src/master/img/iTorrent/screen1.png",
+        "https://bitbucket.org/bunduuk/altstore/src/master/img/iTorrent/screen2.png",
+        "https://bitbucket.org/bunduuk/altstore/src/master/img/iTorrent/screen3.png",
+		    "https://bitbucket.org/bunduuk/altstore/src/master/img/iTorrent/screen4.png"
+      ]
+    },
+    {
+    
+  "userInfo": {
+
+  }
+}
