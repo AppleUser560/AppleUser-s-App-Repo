@@ -1,148 +1,158 @@
 {
-  "repo": {
-    "name": "UTM Repository",
-    "identifier": "com.utmapp.repos.UTM",
-    "subtitle": "Virtual machines for iOS",
-    "website": "https://getutm.app",
-    "tintColor": "#1a2cc2",
-    "featuredApps": [
-        "com.utmapp.UTM"
-    ]
-  },
-  "apps": [
-    {
-      "name": "UTM",
-      "bundleIdentifier": "com.utmapp.UTM",
-      "filename": "UTM.ipa",
-      "githubOwner": "utmapp",
-      "githubRepository": "UTM",
-      "skipPrerelease": true,
-      "developerName": "osy",
-      "subtitle": "Virtual machines for iOS (with JIT support)",
-      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad.\nThis version requires using AltJIT. Install UTM SE for slower emulation without JIT.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\n• Emulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\n• Run any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\n• Fast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\n• High Compatibility\niOS 14+ supported. Works on iPhone and iPad. No jailbreak needed\n• Free and Open Source\nUTM and its dependencies are all free and open source\n• Easy to Use\nConfigure and customize your VM in a native UI",
-      "iconURL": "https://alt.getutm.app/icon.png",
-      "tintColor": "#1a2cc2",
-      "minOSVersion": "14.0",
-      "appPermissions": {
-        "entitlements": [
-          {
-            "name": "get-task-allow"
-          },
-          {
-            "name": "com.apple.developer.kernel.increased-memory-limit"
-          },
-          {
-            "name": "com.apple.developer.kernel.extended-virtual-addressing"
-          },
-          {
-            "name": "dynamic-codesigning"
-          },
-          {
-            "name": "com.apple.private.iokit.IOServiceSetAuthorizationID"
-          },
-          {
-            "name": "com.apple.security.exception.iokit-user-client-class"
-          },
-          {
-            "name": "com.apple.system.diagnostics.iokit-properties"
-          },
-          {
-            "name": "com.apple.vm.device-access"
-          },
-          {
-            "name": "com.apple.private.hypervisor"
-          },
-          {
-            "name": "com.apple.private.memorystatus"
-          }
-        ],
-        "privacy": [
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "The virtual machine may access the local network. UTM also uses the local network to communicate with AltServer."
-          },
-          {
-            "name": "LocationAlwaysAndWhenInUse",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "LocationAlways",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "LocationWhenInUse",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "Microphone",
-            "usageDescription": "Permission is required for any virtual machine to record from the microphone."
-          }
-        ]
-      },
-      "screenshotURLs": [
-        "https://alt.getutm.app/screen0.png",
-        "https://alt.getutm.app/screen1.png",
-        "https://alt.getutm.app/screen2.png",
-        "https://alt.getutm.app/screen3.png",
-        "https://alt.getutm.app/screen4.png",
-        "https://alt.getutm.app/screen5.png",
-        "https://alt.getutm.app/screen6.png"
-      ]
-    },
-    {
-      "name": "UTM SE",
-      "bundleIdentifier": "com.utmapp.UTM-SE",
-      "filename": "UTM-SE.ipa",
-      "githubOwner": "utmapp",
-      "githubRepository": "UTM",
-      "skipPrerelease": true,
-      "developerName": "osy",
-      "subtitle": "Virtual machines for iOS (without JIT support)",
-      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad.\nThis version runs on all iOS 14+ devices but lacks JIT support and is slower than regular UTM.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\n• Emulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\n• Run any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\n• Fast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\n• High Compatibility\niOS 14+ supported. Works on iPhone and iPad. No jailbreak needed\n• Free and Open Source\nUTM and its dependencies are all free and open source\n• Easy to Use\nConfigure and customize your VM in a native UI",
-      "iconURL": "https://alt.getutm.app/icon.png",
-      "tintColor": "#1a2cc2",
-      "minOSVersion": "14.0",
-      "appPermissions": {
-        "entitlements": [
-          {
-            "name": "com.apple.developer.kernel.increased-memory-limit"
-          },
-          {
-            "name": "com.apple.developer.kernel.extended-virtual-addressing"
-          }
-        ],
-        "privacy": [
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "The virtual machine may access the local network. UTM also uses the local network to communicate with AltServer."
-          },
-          {
-            "name": "LocationAlwaysAndWhenInUse",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "LocationAlways",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "LocationWhenInUse",
-            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
-          },
-          {
-            "name": "Microphone",
-            "usageDescription": "Permission is required for any virtual machine to record from the microphone."
-          }
-        ]
-      },
-      "screenshotURLs": [
-        "https://alt.getutm.app/screen0.png",
-        "https://alt.getutm.app/screen1.png",
-        "https://alt.getutm.app/screen2.png",
-        "https://alt.getutm.app/screen3.png",
-        "https://alt.getutm.app/screen4.png",
-        "https://alt.getutm.app/screen5.png",
-        "https://alt.getutm.app/screen6.png"
-      ]
-    }
-  ]
-}
+    "name": "haxi0's Source",
+    "subtitle": "A source for all of my apps",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://avatars.githubusercontent.com/u/85764897?v=4",
+    "headerURL": "https://avatars.githubusercontent.com/u/85764897?v=4",
+    "website": "https://haxi0.space/",
+    "tintColor": "#F54F32",
+    "featuredApps": ["com.haxi0.TrollBoard-Reborn", "org.haxi0.Derootifier", "org.haxi0.TrollLock"],
+    "apps": [
+        {
+            "name": "Jaility",
+            "bundleIdentifier": "org.haxi0.Jaility",
+            "developerName": "haxi0",
+            "subtitle": "iOS supercharger for TrollStore.",
+            "localizedDescription": "iOS supercharger for TrollStore.",
+            "iconURL": "https://media.discordapp.net/attachments/969879614379921418/1042855197803827250/Icon-83_52x.png",
+            "tintColor": "#0096F0",
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.Jaility/jaility_1.png"
+            ],
+            "versions": [
+                {
+                  "version": "3.1.1",
+                  "date": "2022-11-12",
+                  "localizedDescription": "iOS supercharger for TrollStore.",
+                  "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
+                  "size": 106000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
+            "name": "TrollBoard",
+            "bundleIdentifier": "com.haxi0.TrollBoard-Reborn",
+            "developerName": "haxi0",
+            "subtitle": "A webclips icon pack manager.",
+            "localizedDescription": "Theme your app icons with webclips!",
+            "iconURL": "https://raw.githubusercontent.com/haxi0/TrollBoard-Reborn/main/TrollBoard%20Reborn/Assets.xcassets/AppIcon.appiconset/TrollBoard.png",
+            "tintColor": "#00B1F1",
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/com.haxi0.TrollBoard-Reborn/TrollBoard_1.png",
+                "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/com.haxi0.TrollBoard-Reborn/TrollBoard_2.png"
+            ],
+            "versions": [
+                {
+                  "version": "1.0",
+                  "date": "2023-12-05",
+                  "localizedDescription": "Theme your app icons with webclips!",
+                  "downloadURL": "https://github.com/haxi0/TrollBoard-Reborn/releases/download/1.0/TrollBoard.Reborn.ipa",
+                  "size": 529000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        },
+        {
+          "name": "Derootifier",
+          "bundleIdentifier": "org.haxi0.Derootifier",
+          "developerName": "haxi0",
+          "subtitle": "'Derootifies' jailbreak tweak packages to support Dopamine.",
+          "localizedDescription": "'Derootify' jailbreak tweak packages!",
+          "iconURL": "https://raw.githubusercontent.com/haxi0/Derootifier/master/Derootifier/Assets.xcassets/AppIcon.appiconset/derootifier-2.png",
+          "tintColor": "#0AB17E",
+          "screenshotURLs": [
+              "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.Derootifier/Derootifier.png"
+          ],
+          "versions": [
+              {
+                "version": "1.3",
+                "date": "2023-05-26",
+                "localizedDescription": "'Derootify' jailbreak tweak packages!",
+                "downloadURL": "https://github.com/haxi0/Derootifier/releases/download/1.3/Derootifier_1.3.ipa",
+                "size": 1020000,
+                "minOSVersion": "14.0",
+                "maxOSVersion": "17.0"
+              }
+            ],
+          "appPermissions": {}
+        },
+        {
+          "name": "DirtyJIT",
+          "bundleIdentifier": "org.haxi0.DirtyJIT",
+          "developerName": "haxi0",
+          "subtitle": "Enable JIT on supported apps using MDC.",
+          "localizedDescription": "Enable JIT on supported apps using MDC.",
+          "iconURL": "https://raw.githubusercontent.com/haxi0/DirtyJIT/master/DirtyJIT/Assets.xcassets/AppIcon.appiconset/DirtyJIT.png",
+          "tintColor": "#0084FF",
+          "screenshotURLs": [
+              "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.DirtyJIT/DirtyJIT.png"
+          ],
+          "versions": [
+              {
+                "version": "1.1",
+                "date": "2023-05-26",
+                "localizedDescription": "Enable JIT on supported apps using MDC.",
+                "downloadURL": "https://github.com/haxi0/DirtyJIT/releases/download/1.1/DirtyJIT_1.1.ipa",
+                "size": 861000,
+                "minOSVersion": "14.0",
+                "maxOSVersion": "17.0"
+              }
+            ],
+          "appPermissions": {}
+        },
+        {
+          "name": "TrollLock",
+          "bundleIdentifier": "org.haxi0.TrollLock",
+          "developerName": "haxi0",
+          "subtitle": "TrollLock tweak ported to non-jailbroken iOS.",
+          "localizedDescription": "TrollLock tweak ported to non-jailbroken iOS.",
+          "iconURL": "https://raw.githubusercontent.com/haxi0/TrollLock-Reborn/main/TrollLock/TrollLock/Assets.xcassets/AppIcon.appiconset/ios-marketing.png",
+          "tintColor": "#295A52",
+          "screenshotURLs": [
+              "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.TrollLock/TrollLock.png"
+          ],
+          "versions": [
+              {
+                "version": "1.1",
+                "date": "2022-12-29",
+                "localizedDescription": "TrollLock tweak ported to non-jailbroken iOS.",
+                "downloadURL": "https://github.com/haxi0/TrollLock-Reborn/releases/download/1.1/TrollLock-1.1.ipa",
+                "size": 973000,
+                "minOSVersion": "15.0",
+                "maxOSVersion": "17.0"
+              }
+            ],
+          "appPermissions": {}
+        },
+        {
+          "name": "KillMyOTA",
+          "bundleIdentifier": "org.haxi0.KillMyOTA",
+          "developerName": "haxi0",
+          "subtitle": "Disable OTA updates on iOS 15.0-16.1.2 using the MDC exploit.",
+          "localizedDescription": "Disable OTA updates on iOS 15.0-16.1.2 using the MDC exploit.",
+          "iconURL": "https://raw.githubusercontent.com/haxi0/KillMyOTA/master/KillMyOTA/Assets.xcassets/AppIcon.appiconset/ios-marketing.png",
+          "tintColor": "#FF8B29",
+          "screenshotURLs": [
+              "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.KillMyOTA/KillMyOTA.png"
+          ],
+          "versions": [
+              {
+                "version": "1.1",
+                "date": "2023-01-30",
+                "localizedDescription": "Disable OTA updates on iOS 15.0-16.1.2 using the MDC exploit.",
+                "downloadURL": "https://github.com/haxi0/KillMyOTA/releases/download/1.1/KillMyOTA-1.1.ipa",
+                "size": 331000,
+                "minOSVersion": "15.0",
+                "maxOSVersion": "16.1.2"
+              }
+            ],
+          "appPermissions": {}
+        }
+    ],
+    "news": []
+  }
