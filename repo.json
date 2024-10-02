@@ -1,6 +1,6 @@
 {
-    "name": "Harsh Source",
-    "subtitle": "A source for all of my apps",
+    "name": "AppleUser560's Source",
+    "subtitle": "A source with a lot of apps",
     "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://avatars.githubusercontent.com/u/85764897?v=4",
     "headerURL": "https://avatars.githubusercontent.com/u/85764897?v=4",
@@ -9,25 +9,26 @@
     "featuredApps": ["com.haxi0.TrollBoard-Reborn", "org.haxi0.Derootifier", "org.haxi0.TrollLock"],
     "apps": [
         {
-            "name": "Jaility",
-            "bundleIdentifier": "org.haxi0.Jaility",
-            "developerName": "haxi0",
-            "subtitle": "iOS supercharger for TrollStore.",
-            "localizedDescription": "iOS supercharger for TrollStore.",
-            "iconURL": "https://media.discordapp.net/attachments/969879614379921418/1042855197803827250/Icon-83_52x.png",
+            "name": "iCreate Pro - Cracked",
+            "bundleIdentifier": "com.camila314.retr0dev.mhv8crack",
+            "developerName": "camila314",
+            "subtitle": "iCreate Pro, developed by camila314, is a premium collection of tweaks, mods, and new features for the iOS edition of Geometry Dash. With over 40 different mods, this app is a must-have for any iOS Geometry Dash player.",
+            "localizedDescription": "iCreate Pro, developed by camila314, is a premium collection of tweaks, mods, and new features for the iOS edition of Geometry Dash. With over 40 different mods, this app is a must-have for any iOS Geometry Dash player.",
+            "iconURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/icon.png",
             "tintColor": "#0096F0",
             "screenshotURLs": [
-                "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.Jaility/jaility_1.png"
+                "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/screenshot_1.JPG",
+                "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/screenshot_2.JPG"
             ],
             "versions": [
                 {
-                  "version": "3.1.1",
+                  "version": "2.205",
                   "date": "2022-11-12",
-                  "localizedDescription": "iOS supercharger for TrollStore.",
-                  "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-                  "size": 106000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
+                  "localizedDescription": "iCreate Pro, developed by camila314, is a premium collection of tweaks, mods, and new features for the iOS edition of Geometry Dash. With over 40 different mods, this app is a must-have for any iOS Geometry Dash player.",
+                  "downloadURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/iCreate.Pro_Cracked.ipa",
+                  "size": 151872447,
+                  "minOSVersion": "12.0",
+                  "maxOSVersion": "18.0"
                 }
               ],
             "appPermissions": {}
