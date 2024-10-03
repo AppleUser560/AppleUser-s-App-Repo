@@ -1,11 +1,14 @@
 {
     "name": "AppleUser560's Source",
     "subtitle": "A source with a lot of apps",
-    "description": "Welcome to my src! Here you'll find all of my apps.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Test/logo.jpg",
+    "headerURL": "https://avatars.githubusercontent.com/u/85764897?v=4",
+    "website": "https://haxi0.space/",
     "headerURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Test/logo.jpg",
     "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D",
     "tintColor": "#F54F32",
+    "featuredApps": ["com.haxi0.TrollBoard-Reborn", "org.haxi0.Derootifier", "org.haxi0.TrollLock"],
     "apps": [
         {
             "name": "iCreate Pro - Cracked",
@@ -16,7 +19,7 @@
             "iconURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/icon.png",
             "tintColor": "#0096F0",
             "screenshotURLs": [
-                "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/screenshot_1.JPG",
+                "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/screenshot_1.JPG"
                 "width": 828,
                 "height": 1792
             ],
@@ -32,7 +35,7 @@
                 }
               ],
             "appPermissions": {}
-        },        
+        },
         {
             "name": "TrollBoard",
             "bundleIdentifier": "com.haxi0.TrollBoard-Reborn",
@@ -156,3 +159,4 @@
         }
     ],
     "news": []
+  }
