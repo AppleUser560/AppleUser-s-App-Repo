@@ -9,25 +9,27 @@
     "featuredApps": ["com.haxi0.TrollBoard-Reborn", "org.haxi0.Derootifier", "org.haxi0.TrollLock"],
     "apps": [
         {
-            "name": "Jaility",
-            "bundleIdentifier": "org.haxi0.Jaility",
-            "developerName": "haxi0",
-            "subtitle": "iOS supercharger for TrollStore.",
-            "localizedDescription": "iOS supercharger for TrollStore.",
-            "iconURL": "https://media.discordapp.net/attachments/969879614379921418/1042855197803827250/Icon-83_52x.png",
+            "name": "iCreate Pro - Cracked",
+            "bundleIdentifier": "com.camila314.retr0dev.mhv8crack",
+            "developerName": "camila314",
+            "subtitle": "Modded Geometry Dash for iOS",
+            "localizedDescription": "iCreate Pro, developed by camila314, is a premium collection of tweaks, mods, and new features for the iOS edition of Geometry Dash. With over 40 different mods, this app is a must-have for any iOS Geometry Dash player. Mods Inclue: Noclip, SppedHack, Macros and more!",
+            "iconURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/icon.png",
             "tintColor": "#0096F0",
             "screenshotURLs": [
-                "https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/screenshots/org.haxi0.Jaility/jaility_1.png"
+                "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/icon.png",
+                "width": 828,
+                "height": 1792
             ],
             "versions": [
                 {
-                  "version": "3.1.1",
-                  "date": "2022-11-12",
-                  "localizedDescription": "iOS supercharger for TrollStore.",
-                  "downloadURL": "https://github.com/haxi0/Jaility/releases/download/3.1.1/Jaility-3.1.1.ipa",
-                  "size": 106000,
+                  "version": "2.2.0",
+                  "date": "2024-03-22",
+                  "localizedDescription": "Updated to Geometry Dash 2.2. ### If jailbroken users experience crashing: Install CHOICY from oppa334's repo and long press on the iCreate Pro app icon and select 'Disable Tweak Injection'. ### Swipe from the right side of the screeen to the left to show the mod menu!!",
+                  "downloadURL": "https://github.com/AppleUser560/AppleUser560-Repo/releases/download/Application/iCreate.Pro_Cracked.ipa",
+                  "size": 151872447,
                   "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
+                  "maxOSVersion": "18.0"
                 }
               ],
             "appPermissions": {}
